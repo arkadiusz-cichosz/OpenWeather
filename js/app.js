@@ -1,4 +1,4 @@
-let myID = '77d4971436d26f540fd4b63a95bfb825';
+let myID = ''; //To get access to weather API you need an API key whatever account you choose from Free to Enterprise. http://openweathermap.org/appid
 widgetInit();
 let openweatherData = readCookie();
 requestAPI(openweatherData.cityName, openweatherData.countryCode, myID);
